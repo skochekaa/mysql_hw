@@ -1,7 +1,7 @@
 -- 1. Вывести суммарное количество единиц техники на складе (не товарных позиций, а товаров!)
 select sum(amount) as sum_amount
 from hardware
--- 2. 
+-- 2. Вывести какие товары на складе закончились
 select title
 from hardware
 where amount = 0
